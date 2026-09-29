@@ -1,0 +1,13 @@
+h1 {
+    text-align: center;
+    color:forestgreen;
+}
+p {
+    text-align: center;
+    color:crimson;
+}
+li {
+    text-align: center;
+    justify-content: center;
+    color:blueviolet;
+}
