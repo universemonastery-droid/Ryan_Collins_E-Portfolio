@@ -1,8 +1,16 @@
+#homebody {
+    background-color: rgb(50, 50, 50);
+    background-size: 100%;
+}
+
 h1 {
+    font-family:fantasy;
     text-align: center;
     color:forestgreen;
 }
 p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
     text-align: center;
     color:crimson;
 }
