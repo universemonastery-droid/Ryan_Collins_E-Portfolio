@@ -1,20 +1,80 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/CSS/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/Styles/style.css" />
     <title>Projects</title>
-</head>
-<body>
-    <h1>Projects I've worked on!</h1>
-    <li>
+  </head>
+  <body>
+    <section class="header-section">
+      <h1>Projects I've worked on!</h1>
+      <nav id="home_nav" aria-label="Primary navigation">
         <ul>
-            <a href="index.html">Back to Home</a>
-        </ul>
-        <ul>
+          <li>
+            <a href="index.html">Home |</a>
             <a href="about.html">About Page</a>
+          </li>
         </ul>
-    </li>
-</body>
+      </nav>
+    </section>
+
+    <!-- First Card -->
+
+    <main class="card-container">
+      <div class="card">
+        <img
+          src="/Images/firstwebsitescreenshot.png"
+          alt="First Website"
+          class="card-img"
+        />
+        <div class="card-content">
+          <h3 class="card-title">My First Website</h3>
+          <p class="card-info">
+            This is the first website I made! I worked on this at the University
+            of Montana during the spring semester of 2026.
+          </p>
+          <a
+            href="https://universemonastery-droid.github.io/Collins-CSCI181-practice/index.html"
+            class="card-button"
+            >View Project</a
+          >
+        </div>
+      </div>
+      <div class="card">
+        <img src="/Images/Icon.png" alt="SmallSquareArt" class="card-img" />
+        <div class="card-content">
+          <h3 class="card-title">SmallSquareArt.exe</h3>
+          <p id="card_p" class="card-info">
+            This is a Sprite Editor I made for fun over summer break 2026. It is
+            written in python and uses the pygame library. You can draw in any
+            color, customize the pallette and save and load sprites. **This is
+            only avalable on Windows. (Mac version soon!)** Work still in
+            progress... Fun Fact: The icon for my program was made with itself!
+          </p>
+          <a
+            href="https://drive.google.com/file/d/1KVrtLCgjqErgSpgCaKZmIvlHkLgkqaEm/view?usp=drive_link"
+            class="card-button"
+            >Download the app Here!</a
+          >
+        </div>
+      </div>
+      <div class="card">
+        <img
+          src="/Images/DWwebsiteredesign.png"
+          alt="Donation Warehouse Website Redesign."
+          class="card-img"
+        />
+        <div class="card-content">
+          <h3 class="card-title">Donation Warehouse Website Redesign.</h3>
+          <p class="card-info">My attempt at redesigning my work's website!</p>
+          <a
+            href="https://universemonastery-droid.github.io/Collins-csci181-p1/index.html"
+            class="card-button"
+            >View Project</a
+          >
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
