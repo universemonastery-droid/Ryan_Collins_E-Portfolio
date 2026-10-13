@@ -1,3 +1,5 @@
+/* Style sheet for my E-Portfolio. By Ryan Collins */
+
 body {
   background-color: #0b0b0b;
   margin: 0;
@@ -80,7 +82,7 @@ li {
   border: 1px solid transparent;
 }
 
-/* --------------Cards on index.html--------------*/
+/* --------------Cards on projects.html--------------*/
 
 .header-section {
   background-color: #000;
@@ -104,7 +106,7 @@ li {
   padding: 10px;
   overflow: hidden;
   text-align: center;
-  display: flex; /* Makes image and the content sit horizontally. */
+  display: flex; 
   flex-direction: column;
   justify-content: space-between;
   transition: box-shadow 0.3s ease;
@@ -115,7 +117,7 @@ li {
 }
 
 .card-img {
-  width: 100%; /* So image is not bigger than the card. */
+  width: 100%; 
   height: 240px;
   object-fit: cover;
   display: block;
@@ -123,7 +125,7 @@ li {
 
 .card-content {
   display: flex;
-  flex-direction: column; /* Keeps title, description, and button stacked inside. */
+  flex-direction: column; 
   align-items: flex-start;
 }
 
@@ -160,7 +162,7 @@ li {
 
 /* --------------About Page-------------- */
 
-.about-container {
+.text-block-container {
   max-width: 750px;
   margin: 40px auto;
   padding: 0 20px;
