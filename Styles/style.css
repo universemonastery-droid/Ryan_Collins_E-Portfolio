@@ -64,6 +64,7 @@ li {
 }
 
 #home_nav li {
+  list-style: none;
   display: flex;
   align-items: center;
 }
@@ -198,4 +199,12 @@ li {
   line-height: 1.8;
   text-align: center;
   display: list-item;
+}
+
+/* Goblin Goods Project View Page */
+#goblingoods_topinfo {
+  font-family: 'Times New Roman', Times, serif;
+  text-align: left;
+  font-size: larger;
+  color: red;
 }
